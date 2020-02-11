@@ -1,6 +1,6 @@
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://new-appnadz.herokuapp.com/rss-cnn.php");
+ $domOBJ->load("https://new-appnadz.herokuapp.com/rss.php");
  
  $cnt = $domOBJ->getElementsByTagName("Books");
 ?>
