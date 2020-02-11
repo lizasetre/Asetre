@@ -10,12 +10,11 @@
     while($r= mysqli_fetch_assoc($q)){
         extract($r);
         
-        $rss .= '<BookName>';
-        $rss .= '<name>' . $name . '</name>';
-        $rss .= '<sciname>' . $sciname . '</sciname>';
-        $rss .= '<lifespan>' . $lifespan . '</lifespan>';
-        $rss .= '<family>' . $family . '</family>';
-        $rss .= '</pets>';
+        $rss .= '<Books>';
+        $rss .= '<BookName>' . $BookName . '</BookName>';
+        $rss .= '<Author>' . $Author . '</Author>';
+        $rss .= '<Genre>' . $Genre . '</Genre>';
+        $rss .= '</Books>';
     }
     $rss .= '</channel>';
     $rss .= '</rss>';
