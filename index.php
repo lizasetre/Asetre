@@ -11,9 +11,9 @@
 <?php
  foreach( $content as $data )
  {
-     $BookName = $data->getElementsByTagName("bookname")->item(0)->nodeValue;
-     $Author = $data->getElementsByTagName("author")->item(0)->nodeValue;
-     $Genre = $data->getElementsByTagName("genre")->item(0)->nodeValue;
+     $bookname = $data->getElementsByTagName("bookname")->item(0)->nodeValue;
+     $author = $data->getElementsByTagName("author")->item(0)->nodeValue;
+     $genre = $data->getElementsByTagName("genre")->item(0)->nodeValue;
      
   echo "<ul>
             <h3>$name</h3>
