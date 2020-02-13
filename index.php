@@ -1,11 +1,11 @@
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://asetre.herokuapp.com/rss.php");
+ $domOBJ->load("https://asetre.herokuapp.com/rss.php");//XML page URL
  
  $content = $domOBJ->getElementsByTagName("Books");
 
 ?>
-<ul>
+
  <h2> Best Book to read </h2>
 
 <?php
