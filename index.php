@@ -18,9 +18,9 @@
   echo "<ul>
             <h3>$name</h3>
               <ul>
-                  <li>Book Name: $bookname </li>
-                  <li>Author: $author </li>
-                  <li>Genre: $genre </li>
+                  <li>BookName: bookname </li>
+                  <li>Author: author </li>
+                  <li>Genre: genre </li>
               </ul>
           </ul>";
  }
