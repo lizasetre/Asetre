@@ -11,9 +11,9 @@
         extract($records);
         
         $rss .= '<books>';
-        $rss .= '<bookname>' . $bookname . '</bookname>';
-        $rss .= '<author>' . $author . '</author>';
-        $rss .= '<genre>' . $genre . '</genre>';
+        $rss .= '<bookname>' . $BookName . '</bookname>';
+        $rss .= '<author>' . $Author . '</author>';
+        $rss .= '<genre>' . $Genre . '</genre>';
         $rss .= '</books>';
     }
     $rss .= '</channel>';
